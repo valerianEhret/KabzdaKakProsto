@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-type StarPropsType = {
+export type StarPropsType = {
     selected: boolean
     setValue: () => void
 
