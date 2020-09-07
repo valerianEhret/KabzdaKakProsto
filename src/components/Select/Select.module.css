@@ -1,0 +1,44 @@
+.box {
+    border: 1px black solid;
+    width: 120px;
+    cursor: pointer;
+}
+.box2 {
+    width: 120px;
+    cursor: pointer;
+}
+.box2:hover {
+    background: blue;
+}
+.box3 {
+    border: 2px black solid;
+    width: 120px;
+    cursor: pointer;
+}
+
+
+
+
+
+.select span.main {
+    border: 1px solid black;
+    display: inline-block;
+    min-height: 20px;
+    min-width: 40px;
+}
+
+.items {
+    display: block;
+    padding: 5px;
+    position: absolute;
+    border: 1px solid black;
+}
+
+.item {
+
+}
+
+.selected {
+    background: blue;
+    color: white;
+}
